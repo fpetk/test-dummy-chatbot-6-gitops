@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: test-dummy-chatbot-6-gitops-repository
+spec:
+  url: https://github.com/fpetk/test-dummy-chatbot-6-gitops

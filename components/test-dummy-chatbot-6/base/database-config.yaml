@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-dummy-chatbot-6-database-config
+data:
+  VECTORDB_HOST: "test-dummy-chatbot-6-database"
+  VECTORDB_PORT: ""
